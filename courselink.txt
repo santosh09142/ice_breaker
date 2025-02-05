@@ -2,3 +2,6 @@ for on llm instead of paid models(like Openai/gemeni)
         https://ollama.com/
 
 https://gist.github.com/santosh09142/f0aa095f5676f5b88dfaf1ac50ec2b2b#file-santosh-json
+
+
+Santosh
