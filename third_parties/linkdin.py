@@ -1,7 +1,6 @@
 import os
 import requests
 from dotenv import load_dotenv
-from sqlalchemy import false
 
 load_dotenv()
 
@@ -40,5 +39,12 @@ def scrape_linkdin_profile(linkdin_profile_url: str, mock: bool=False):
 
     return data
 
+if __name__ == "__main__":
+    print(
+        scrape_linkdin_profile(
+            linkdin_profile_url="https://www.linkedin.com/in/santosh-patil-6b30326",
+            mock=True,
+        )
+    )
 
 
